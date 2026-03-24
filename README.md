@@ -37,14 +37,19 @@ cmake --build build
 
 The binary is at `build/fileforge`.
 
-## Roadmap
+## Product Direction
 
-- [ ] Custom rename rules (regex, templates, counters)
-- [ ] Recursive directory scanning
-- [ ] Rule-based file sorting into folders
-- [ ] Duplicate detection (hash-based)
-- [ ] Undo/rollback support
-- [ ] GUI (desktop app)
+Fileforge is headed toward a **Windows-first desktop app** with an installable release, fast scan-based previews, safe apply/rollback behavior, and optional AI-assisted organization.
+
+Near-term direction:
+- recursive inventory scanning
+- preview plans generated **without moving files first**
+- configurable rule-based sorting
+- duplicate detection and rollback groundwork
+- eventual Windows GUI + installer
+- optional AI model plug-in for advanced planning
+
+See [ROADMAP.md](./ROADMAP.md) for the full build plan.
 
 ## License
 
